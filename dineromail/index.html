@@ -1,0 +1,131 @@
+
+<h1>Mi sitio web</h1>
+
+<h3>Boton Estandar</h3>
+<br>
+<form action="https://checkout.dineromail.com/CheckOut" method="post" >
+Variables Obligatorias<br><br>
+<input type="text" name="merchant" value="merchant 1721561" /><br>
+<input type="text" name="country_id" value="country_id 1" /><br>
+<input type="text" name="payment_method_available" value="payment_method_available all" /><br>
+<input type="text" name="item_name_1" value="item_name_1 Ejemplo DVD" /><br>
+<input type="text" name="item_quantity_1" value="item_quantity_1 1" /><br>
+<input type="text" name="item_ammount_1" value="item_ammount_1 12050" /><br><br>
+ Boton <br><br>
+<input type='image' src='https://argentina.dineromail.com/imagenes/botones/pagar-medios_c.gif' border='0' name='submit' alt='Pagar con DineroMail'></form>
+<h3><small><a href="https://checkout.dineromail.com/CheckOut?merchant=1721561&country_id=1&payment_method_available=all&item_name_1=Ejemplo+DVD&item_quantity_1=1&item_ammount_1=12050">Ejemplo en vivo</a></small></h3>
+
+<h3>Ejemplo Boton agregar al carrito</h3>
+<a href="#" onclick="window.open('https://argentina.dineromail.com/Carrito/cart.asp?NombreItem=Impresora&amp;TipoMoneda=1&amp;PrecioItem=450%2E00&amp;NroItem=%2D&amp;image_url=https://argentina.dineromail.com/imagenes/LogosVendedores/1466897.jpg&amp;DireccionExito=http://www.ok.com&amp;DireccionFracaso=http://www.error.com&amp;DireccionEnvio=1&amp;Mensaje=1&amp;MediosPago=4%2C5%2C6%2C14%2C15%2C16%2C17%2C18%2C2%2C7&amp;Comercio=1466897','Carrito','width=600,height=275,toolbar=no,location=no,status=no,menubar=no,resizable=yes,scrollbars=yes,directories=no');"><img src="https://argentina.dineromail.com/imagenes/botones/agregar_c.gif"border="0"></a><br><br>
+
+<h3>Boton para ver el carrito</h3>
+<a href="#" onclick="window.open('https://argentina.dineromail.com/Carrito/cart.asp?Comercio=1466897','Carrito','width=600,height=275,toolbar=no,location=no,status=no,menubar=no,resizable=yes,scrollbars=no,direc tories=no');"><img src="https://argentina.dineromail.com/imagenes/botones/ver_c.gif" border="0"></a>
+
+<form action="https://checkout.dineromail.com/CheckOut" method="post" >
+Variables Obligatorias<br>
+<input type="text" name="merchant" value="integrationdm01@gmail.com" /><br>
+<input type="text" name="country_id" value="1" /><br>
+<input type="text" name="payment_method_available" value="all" /><br>
+<input type="text" name="item_name_1" value="Ejemplo DVD" /><br>
+<input type="text" name="item_quantity_1" value="1" /><br>
+<input type="text" name="item_ammount_1" value="12050" /><br>
+
+ Variables Obligatorias para funcionalidad Express Checkout <br><br>
+<input type="text" name="payment_method_1" value="ar_pagofacil" /><br>
+<input type="text" name="buyer_name" value="Demo" /><br>
+<input type="text" name="buyer_lastname" value="Test" /><br>
+<input type="text" name="buyer_sex" value="m" /><br>
+<input type="text" name="buyer_document_type" value="dni" /><br>
+<input type="text" name="buyer_document_number" value="12345678" /><br>
+<input type="text" name="buyer_phone" value="12345678" /><br>
+<input type="text" name="buyer_email" value="integrationdm02@gmail.com" /><br>
+
+ Boton <br><br>
+<input type='image' src='https://argentina.dineromail.com/imagenes/botones/pagar-medios_c.gif' border='0' name='submit' alt='Pagar con DineroMail'><br><br>
+</form>
+
+<form>
+ VARIABLES DEL VENDEDOR<br><br>
+<input type="text" name="tool" value="tool button" /><br>
+<input type="text" name="merchant" value="1466897" /><br>
+<input type="text" name="country_id" value="1" /><br>
+<input type="text" name="seller_name" value="Nombre del Vendedor" /><br>
+<input type="text" name="language" value="es" /><br>
+<input type="text" name="transaction_id" value="111222333" /><br>
+<input type="text" name="currency" value="ars" /><br>
+<input type="text" name="ok_url" value="http://www.ok.com" /><br>
+<input type="text" name="error_url" value="https://www.error.com" /><br>
+<input type="text" name="pending_url" value="www.pending.com" /><br>
+<input type="text" name="buyer_message" value="1" /><br>
+<input type="text" name="change_quantity" value="1" /><br>
+<input type="text" name="display_shipping" value="1" /><br>
+<input type="text" name="display_additional_charge" value="1" /><br>
+<br>
+ VARIABLES DE MEDIOS DE PAGO<br><br>
+<input type="text" name="payment_method_available" value="ar_visa;ar_amex;ar_master,1,3;ar_pagofacil;ar_dm;" /><br>
+<input type="text" name="payment_method_1" value="" /><br><br>
+VARIABLES DEL PRODUCTO/ITEM<br>
+Item 1<br><br>
+<input type="text" name="item_name_1" value="Ejemplo DVD" /><br>
+<input type="text" name="item_code_1" value="001" /><br>
+<input type="text" name="item_quantity_1" value="1" /><br>
+<input type="text" name="item_ammount_1" value="20000" /><br>
+<input type="text" name="item_currency_1" value="ars" /><br><br>
+ VARIABLES DE ENVÍO<br><br>
+<input type="text" name="shipping_type_1" value="3" /><br>
+<input type="text" name="weight_1" value="kg" /><br>
+<input type="text" name="item_weight_1" value="0400" /><br>
+<input type="text" name="shipping_currency_1" value="ars" /><br>
+<input type="text" name="shipping_cost_1_1" value="5000" /><br><br>
+ VARIABLES DEL COMPRADOR<br><br>
+<input type="text" name="buyer_name" value="Juan Jose" /><br>
+<input type="text" name="buyer_lastname" value="Herrera" /><br>
+<input type="text" name="buyer_sex" value="M" /><br>
+<input type="text" name="buyer_nacionality" value="arg" /><br>
+<input type="text" name="buyer_document_type" value="dni" /><br>
+<input type="text" name="buyer_document_number" value="12456111" /><br>
+<input type="text" name="buyer_email" value="jjherrera@buyeremail.com" /><br>
+<input type="text" name="buyer_phone" value="55555555" /><br>
+<input type="text" name="buyer_phone_extension" value="123" /><br>
+<input type="text" name="buyer_zip_code" value="1234" /><br>
+<input type="text" name="buyer_street" value="Arenales" /><br>
+<input type="text" name="buyer_number" value="123" /><br>
+<input type="text" name="buyer_complement" value="hola" /><br><br>
+<input type="text" name="buyer_city" value="Capital Federal" /><br>
+<input type="text" name="buyer_state" value="Buenos Aires" /><br>
+<input type="text" name="buyer_country" value="arg" /><br><br>
+ VARIABLES ADICIONALES<br>
+Item 1<br><br>
+<input type="text" name="additional_fixed_charge" value="10000" /><br>
+<input type="text" name="additional_fixed_charge_currency" value="ars" /><br>
+<input type="text" name="additional_var_description_1" value="XXX" /><br>
+<input type="text" name="additional_var_value_1" value="" /><br>
+<input type="text" name="additional_var_visible_1" value="1" /><br>
+<input type="text" name="additional_var_required_1" value="0" /><br><br>
+<br>
+
+ VARIABLES DE DISEÑO<br><br>
+<input type="text" name="header_image" value="https://argentina.dineromail.com/imagenes/LogosVendedores/1466897.gif"/><br>
+<input type="text" name="header_width" value="1" /><br>
+<input type="text" name="expanded_step_PM" value="0" /><br>
+<input type="text" name="expanded_step_AD" value="0" /><br>
+<input type="text" name="expanded_step_SC" value="0" /><br>
+<input type="text" name="expanded_sale_detail" value="1" /><br>
+<input type="text" name="step_color" value="F6F6F6" /><br>
+<input type="text" name="hover_step_color" value="E8FFD3" /><br>
+<input type="text" name="links_color" value="669900" /><br>
+<input type="text" name="font_color" value="666666" /><br><br><br>
+<input type="text" name="border_color" value="999999" /><br><br>
+<input type="text" name="button_color" value="7DBE0B" /><br><br>
+<input type='image'src='https://argentina.dineromail.com/imagenes/botones/pagar-medios_c.gif' border='0' name='submit' alt='Pagar con DineroMail'><br>
+</form>
+
+<iframe src="https://checkout.dineromail.com/CheckOut?buyer_document_number=12345678&buyer_document_type=dni&buyer_email=integrationdm01@gmail.com&buyer_lastname=Test&buyer_name=Demo&buyer_phone=12345678&buyer_sex=m&country_id=1&item_ammount_1=12050&item_name_1=Ejemplo+DVD&item_quantity_1=1&merchant=1769592&payment_method_available=all&checkout_views=iframe&payment_method_1=ar_visa,1&iframe_background_color=CCC&iframe_font_size=14px&iframe_font_link_color=FFF&iframe_font_ color=FFF" height="500" width="100%"></iframe>
+<br><br>
+<iframe src="https://checkout.dineromail.com/CheckOut?buyer_document_number=12345678&buyer_document_type=dni&buyer_email=integrationdm01@gmail.com&buyer_lstname=Perez&buyer_name=Juan+L.&buyer_phone=12345678&buyer_sex=m&country_id=1&item_ammount_1=12050&item_name_1=Remera&item_quantity_1=1&merchant=169592&payment_method_available=all&checkout_views=iframe&payment_method_1=ar_visa,1&iframe_background_color=CCC&iframe_font_size=14px&iframe_font_link_color=FFF&iframe_font_color=FFF" height="500" width="100%"></iframe>
+
+<form action="https://checkout.dineromail.com/CheckOut" method="post" >
+
+
+  <!-- choose_yourname@yahoo.com -->
+  <!-- dineromail123 -->
